@@ -268,12 +268,130 @@ span {
 /*footer*/
 
 
-.material-symbols-outlined {
-    font-family: 'Material Symbols Outlined';
-    font-weight: normal;
-    font-style: normal;
-    font-size: 24px;
-    line-height: 1;
+footer {
+    width: 100%;
+    background-color: #f5f2e9;
+    padding: 50px 4%;
+    margin-bottom: 20px;
+}
+
+.footer {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.footer > div:first-child {
+    flex: 1;
+    min-width: 0;
+}
+
+.footer h1 {
+    color: #caa23d;
+    font-size: 2rem;
+    line-height: 1.3;
+    margin-bottom: 20px;
+}
+
+.footer > div:first-child p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #333;
+
+    border-left: 4px solid #DDB544;
+    padding-left: 20px;
+}
+
+.footer_img {
+    flex: 0 0 300px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.contact img {
+    width: 35px;
+    height: 35px;
+    object-fit: contain;
+    flex-shrink: 0;
+
+    filter: brightness(0) saturate(100%) invert(68%)
+        sepia(40%) saturate(700%) hue-rotate(5deg);
+}
+
+.contact p {
+    margin: 0;
+    padding: 0;
+    border: none;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.5;
+    overflow-wrap: anywhere;
+}
+
+/* TABLET */
+
+@media (max-width: 992px) {
+    footer {
+        padding: 40px 30px;
+    }
+
+    .footer {
+        gap: 30px;
+    }
+
+    .footer_img {
+        flex-basis: 250px;
+    }
+
+    .footer h1 {
+        font-size: 1.7rem;
+    }
+}
+
+/* PHONE */
+
+@media (max-width: 768px) {
+    footer {
+        padding: 35px 20px;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 35px;
+    }
+
+    .footer h1 {
+        font-size: 1.6rem;
+    }
+
+    .footer_img {
+        flex: auto;
+        width: 100%;
+        gap: 20px;
+    }
+
+    .contact {
+        justify-content: flex-start;
+    }
+
+    .contact img {
+        width: 28px;
+        height: 28px;
+    }
 }
 
 
