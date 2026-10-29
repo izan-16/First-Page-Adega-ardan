@@ -12,7 +12,7 @@ y por ultimo pero no menos importante el footer o pie de pagina con una breve de
 Agradecimientos
 
 Queria agredecer en primer lugar a mi pareja por su gran apoyo y a su familia por dejar que me puede inspirar en su pagina web,
-muchas gracias a mi profesor tiburcio por explicar de manera tan buena y por ser tan buen profesor
+muchas gracias a mi profesor Tiburcio por explicar de manera tan buena y por ser tan buen profesor
 
 Autor
 
